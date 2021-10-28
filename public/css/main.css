@@ -163,3 +163,12 @@ main{
     margin: 0;
     font-size: .8em;
 }
+
+@media (max-width:600px){
+    .home_link{
+        width: auto;
+    }
+    .projects_image_wrapper{
+        display: none;
+    }
+}

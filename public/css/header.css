@@ -56,3 +56,9 @@ li{
 .user_link a:hover{
     color: rgb(142, 165, 233);
 }
+
+@media (max-width:600px){
+    .user_links{
+        width: auto;
+    }
+}
