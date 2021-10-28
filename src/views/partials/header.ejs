@@ -1,0 +1,16 @@
+<header class="header_index">
+    <div class="index_header_wrapper">
+        <h1> <a class="titulo_principal" href="/">Content Manager</a> </h1>
+        
+        <div class="login">
+            <ul class="user_links">
+                <% if(locals.userLogged){%>
+                    <li class="user_link">  <a href="#"> <i class="far fa-user"></i>  <%= userLogged.email %> </a> </li>
+                    <li class="user_link"> <a href="/logout">Log out</a> </li>
+                <%} else{%>
+                    <li class="user_link"> <a href="/login">Log in</a></li>
+                    <% } %>
+            </ul>
+        </div>
+    </div>
+</header>
